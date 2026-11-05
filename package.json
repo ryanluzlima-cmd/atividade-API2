@@ -1,0 +1,30 @@
+{
+  "name": "atividade-api2",
+  "version": "1.0.0",
+  "description": "Projeto de Api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+     "build": "tsc",
+    "start": "node dist/server.js",
+    "db:init": "tsx src/database/init.ts",
+    "db:seed": "tsx src/database/seed.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanluzlima-cmd/atividade-API2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ryanluzlima-cmd/atividade-API2/issues"
+  },
+  "homepage": "https://github.com/ryanluzlima-cmd/atividade-API2#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "sqlite3": "^6.0.1",
+    "zod": "^4.6.7"
+  }
+}
